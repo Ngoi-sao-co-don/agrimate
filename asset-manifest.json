@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ngoi-sao-co-don/agrimate.git/static/css/main.4704eddb.css",
+    "main.js": "/Ngoi-sao-co-don/agrimate.git/static/js/main.18455ae5.js",
+    "index.html": "/Ngoi-sao-co-don/agrimate.git/index.html",
+    "main.4704eddb.css.map": "/Ngoi-sao-co-don/agrimate.git/static/css/main.4704eddb.css.map",
+    "main.18455ae5.js.map": "/Ngoi-sao-co-don/agrimate.git/static/js/main.18455ae5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4704eddb.css",
+    "static/js/main.18455ae5.js"
+  ]
+}
