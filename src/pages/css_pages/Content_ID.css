@@ -1,0 +1,72 @@
+#introduceContent{
+    width: 100%;
+    margin-top: 30px;
+}
+.Content{
+    /* margin: 0px 10% 0 10%; */
+}
+.section-title {
+    position: relative;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+.section-title b {
+    display: block;
+    -ms-flex: 1;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+}
+.section-title-main{
+    text-align: center;
+    font-size: 25px;
+}
+.section-title-center span {
+    text-align: center;
+}
+.Content-Tilte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    line-height: 2.6rem;
+    margin: 25px 25px 25px 25px;
+    text-align: center;
+}
+.SubContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SubContent-Left{
+    display: flex;
+    float: left;
+    margin: 25px 25px 25px 25px;
+}
+.SubContent-Right{
+    float: right;
+    display: flex;
+    margin: 25px 25px 25px 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.SubContent-Tilte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    text-align: center;
+    line-height: 2.6rem;
+    max-width: 500px;
+}

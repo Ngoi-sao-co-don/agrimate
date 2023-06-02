@@ -1,0 +1,73 @@
+.container_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.form_login_container{
+    width: 400px;
+    height: 500px;
+    backdrop-filter: blur(200px);
+    border-radius: 18px;
+}
+
+.form_login{
+    margin: 72px;
+}
+
+::placeholder { /* chạy tốt trên Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: .5; /* Firefox */
+}
+
+.username,
+.password{
+    width: 100%;
+    margin: 12px 0px;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+
+.logo{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.login_btn{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    width: 80%;
+    padding: 10px;
+    margin: 12px auto;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: opacity .3s;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+.create_new_account_btn{
+    font-size: 13px;
+    text-align: center;
+}
+
+.create_new_account_btn button{
+    background-color: transparent;
+    color: rgb(2, 66, 87);
+    transition: opacity .3s;
+    font-size: 15px;
+}

@@ -1,0 +1,228 @@
+#content{
+    
+}
+
+.heading{
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 40px;
+    background-color: #000;
+    margin: 79px 0px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+.heading_Triangle{
+    position: absolute;
+    left: 300px;
+    top: 0;
+    border-bottom: 40px solid #000;
+    border-right: 40px solid transparent;
+}
+
+.heading_foot{
+    position: absolute;
+    width: 600px;
+    bottom: 0;
+    height: 2px;
+    background-color: #000;
+}
+
+.content_category_plans{
+    max-width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 9rem;
+    margin: 10px 32px;
+    overflow-x: auto;
+}
+
+.content_category_plans::-webkit-scrollbar{
+    height: 7px;
+    background-color: transparent;
+}
+
+
+.content_category_plans::-webkit-scrollbar-thumb{
+    background-color: #000;
+    border-radius: 10px;
+}
+
+
+.btn_plan{
+    position: relative;
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    margin: 10px 0px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff;
+    transition: transform .5s;
+}
+
+.btn_plan:hover{
+    transform: translatey(-9px);
+}
+
+
+
+.btn_plan img{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 100%;
+    height: 50%;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+}
+
+.name_plant{
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.sname_plant{
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.foot{
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    background-color: #000;
+    right: 0;
+    margin: 92px 0px;
+}
+
+
+.content_plants_disease{
+    display: flex;
+    justify-content: space-between;
+    margin: var(--main-margin);
+    padding: 184px 0px;
+}
+
+
+.content_plants_disease_article{
+    width: 60%;
+    margin: -52px 0px;
+    animation: left_appear .5s linear forwards;
+}
+
+@keyframes left_appear {
+    from{
+      transform: translateX(-10%);
+      opacity: 0;
+    }
+    to{
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+.article_plant_disease_image{
+    max-width: 500px;
+    /* width: 300px; */
+    height: 250px;
+}
+
+.article_plant_disease{
+    margin: 52px 0px;
+}
+
+.article_plant_disease_heading{
+    font-size: 25px;
+    color: rgb(146, 12, 12);
+}
+
+.article_plant_disease_dec,
+.article_plant_disease_prevent{
+    font-size: 17px;
+    line-height: 2.6rem;
+    margin-top: 25px;
+}
+
+
+.Show_more{
+    display: block;
+    margin: 0 auto!important;
+}
+
+
+
+
+
+
+
+.content_plants_disease_nav{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.plant_image{
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+}
+
+.current_selected_plant{
+    width: 100%;
+    height: 100%;
+}
+
+.plant_nav_items{
+    
+}
+
+.nav_btn{
+    color: #000;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid #000;
+}
+
+.nav_btn {
+    padding: 15px 25px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    color: #000;
+    z-index: 1;
+    background: transparent;
+    position: relative;
+    font-weight: bold;
+    font-size: 17px;
+    transition: all 250ms;
+    overflow: hidden;
+    margin: 22px 0px;
+}
+   
+.nav_btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #000;
+    z-index: -1;
+    transition: all 250ms
+}
+   
+.nav_btn:hover {
+    color: #fff;
+}
+   
+.nav_btn:hover::before {
+    width: 100%;
+}
